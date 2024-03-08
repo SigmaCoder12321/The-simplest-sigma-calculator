@@ -1,0 +1,16 @@
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+operation = input("What to do? (+, -, *, /): ")
+result = 0
+
+if operation == "+":
+    result = a + b
+elif operation == "-":
+    result = a - b
+elif operation == "*":
+    result = a * b
+elif operation == "/":
+    result = a / b
+
+print(f"Result: {result}")
